@@ -14,7 +14,7 @@ repositories {
     maven { url "http://repo.maven.apache.org/maven2" }
 }
 dependencies {
-      testCompile 'junit:junit:4.11'
+      testCompile 'junit:junit:4.12'
       compile 'org.mockito:mockito-all:1.10.19'
 }
 task wrapper(type: Wrapper){
