@@ -24,7 +24,7 @@ task wrapper(type: Wrapper){
 
 sonarRunner {
 	sonarProperties {
-		property "sonar.projectName", "BankApp_Gradle"
+		property "sonar.projectName", "GradleApp"
 		property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
 	}
 }
